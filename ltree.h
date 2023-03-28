@@ -1,14 +1,23 @@
 #pragma once
 
+#define NOMINMAX
 #include<windows.h>
-#include<cstdio>
 #include<memory>
+#include<string>
 #include<sstream>
+#include<fstream>
 #include<vector>
+#include<set>
+#include<functional>
 #include<stdexcept>
+#include<algorithm>
+#include<format>
+#include<chrono>
 #include<cmath>
+#include<random>
 
 #include<SDL/SDL.h>
+#include<SDL/SDL_ttf.h>
 
 typedef uint8_t  u8;
 typedef uint16_t u16;
